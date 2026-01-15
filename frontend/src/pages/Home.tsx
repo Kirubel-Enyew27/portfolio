@@ -21,7 +21,7 @@ export default function Home() {
 
           <p className="mt-4 text-xl text-white/80">
             I’m a Full‑Stack <strong>Go + React</strong> Developer
-            building scalable and modern web applications.
+            building scalable backend systems, and modern web applications.
           </p>
 
           <div className="mt-8 flex gap-4">
@@ -39,7 +39,7 @@ export default function Home() {
           <img
             src={myImage}
             alt="Kirubel Enyew"
-            className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-2 border-accent shadow-lg"
+            className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-2 shadow-lg"
           />
         </div>
       </div>
