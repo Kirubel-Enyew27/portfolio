@@ -1,6 +1,6 @@
 export default function About() {
 return (
-<section id="about" className="py-24 max-w-5xl mx-auto px-6">
+<section id="about" className="py-24 max-w-6xl mx-auto px-6">
 <h2 className="text-3xl font-semibold mb-6">Profile</h2>
 <p className="text-white/80 leading-relaxed">
 I am a Golang Backend Developer with over two years of professional experience building
