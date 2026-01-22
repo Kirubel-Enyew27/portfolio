@@ -6,7 +6,7 @@ return (
 I am a Golang Backend Developer with over two years of professional experience building
 and maintaining backend systems for web applications. I contribute across the full
 development lifecycle—from API design and database modeling to containerized deployment
-using Docker. I hold a Bachelor of Science in Computer Science from Addis Ababa University.
+using Docker. I hold a Bachelor of Science in <b>Computer Science</b> from <b>Addis Ababa University</b>.
 </p>
 </section>
 );
