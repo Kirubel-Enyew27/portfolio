@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export async function submitContact(data: {
+export async function sendMessage(data: {
   name: string;
   email: string;
   message: string;

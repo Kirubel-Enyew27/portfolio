@@ -1,6 +1,12 @@
 import { motion } from "framer-motion";
+import type { ReactNode } from "react";
 
-export default function Section({ id, children }) {
+type SectionProps = {
+  id?: string;
+  children?: ReactNode;
+};
+
+export default function Section({ id, children }: SectionProps) {
   return (
     <motion.section
       id={id}
