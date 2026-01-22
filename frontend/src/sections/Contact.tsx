@@ -84,7 +84,7 @@ export default function Contact() {
             type="submit"
             disabled={loading}
             className="w-full bg-accent text-black py-3 rounded-lg font-medium
-                       hover:opacity-90 transition disabled:opacity-50"
+                       hover:opacity-90 hover:scale-105 transition-transform duration-300 disabled:opacity-50"
           >
             {loading ? "Sending..." : "Send Message"}
           </button>
