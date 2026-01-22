@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { sendMessage } from "../services/contact";
+import toast from "react-hot-toast";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -9,8 +10,6 @@ export default function Contact() {
   });
 
   const [loading, setLoading] = useState(false);
-  const [success, setSuccess] = useState("");
-  const [error, setError] = useState("");
 
   const handleChange = (e: { target: { name: any; value: any; }; }) => {
     setFormData({
@@ -19,22 +18,20 @@ export default function Contact() {
     });
   };
 
-  const handleSubmit = async (e: { preventDefault: () => void; }) => {
-    e.preventDefault();
-    setLoading(true);
-    setError("");
-    setSuccess("");
+const handleSubmit = async (e: { preventDefault: () => void }) => {
+  e.preventDefault();
+  setLoading(true);
 
-    try {
-      await sendMessage(formData);
-      setSuccess("Message sent successfully!");
-      setFormData({ name: "", email: "", message: "" });
-    } catch (err) {
-      setError("Something went wrong. Please try again.");
-    } finally {
-      setLoading(false);
-    }
-  };
+  try {
+    await sendMessage(formData);
+    toast.success("Message sent successfully!");
+    setFormData({ name: "", email: "", message: "" });
+  } catch (err) {
+    toast.error("Something went wrong. Please try again.");
+  } finally {
+    setLoading(false);
+  }
+};
 
   return (
     <section
@@ -88,13 +85,6 @@ export default function Contact() {
           >
             {loading ? "Sending..." : "Send Message"}
           </button>
-
-          {success && (
-            <p className="text-green-400 text-sm pt-2">{success}</p>
-          )}
-          {error && (
-            <p className="text-red-400 text-sm pt-2">{error}</p>
-          )}
         </form>
       </div>
     </section>
