@@ -29,9 +29,13 @@ export default function Hero() {
             </p>
 
             <p className="mt-4 max-w-xl mx-auto md:mx-0 text-white/70 leading-relaxed text-base sm:text-lg">
-              Building secure backends and sleek frontends with <span className="text-accent">Go</span> & <span className="text-accent">React</span>.
-              Creating robust systems and intuitive interfaces for modern web experiences.
+              Building high-performance backends and refined frontends with{" "}
+              <span className="whitespace-nowrap">
+                <span className="text-accent">Go</span> and <span className="text-accent">React</span>
+              </span>.
+              I specialize in secure, scalable systems paired with intuitive interfaces for the modern web.
             </p>
+
 
             {/* CTA buttons */}
             <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
