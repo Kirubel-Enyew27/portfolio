@@ -1,11 +1,11 @@
 export default function Skills() {
 const skills = {
-"Programming Languages": ["Golang", "JavaScript", "Node.js", "Java", "Python", ".NET"],
+"Programming Languages": ["Golang", "JavaScript/TypeScript", "Node.js", "Python", "Java", ".NET"],
 Databases: ["PostgreSQL", "MySQL", "CockroachDB", "MongoDB"],
 Frontend: ["React", "HTML5", "CSS"],
 "DevOps & Tools": ["Docker", "Git"],
 "Testing & QA": ["Cucumber (godog)", "Test Assurance"],
-Security: ["JWT", "RBAC"],
+Security: ["JWT", "OAuth", "RBAC"],
 };
 
 
