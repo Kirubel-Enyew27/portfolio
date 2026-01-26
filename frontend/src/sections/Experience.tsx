@@ -15,7 +15,12 @@ export default function Experience() {
 
           <h3 className="font-semibold">
             Full-Stack Developer —{" "}
-            <span className="text-accent">Cashflow Financial Technologies</span>
+          <a
+          href="https://cashflow.et" 
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-accent hover:underline hover:opacity-90 transition"
+      >Cashflow Financial Technologies</a>
           </h3>
           <p className="text-sm text-white/60">
             September 2025 – Present
@@ -33,7 +38,13 @@ export default function Experience() {
           <span className="absolute -left-[7px] top-1.5 w-3 h-3 rounded-full bg-accent" />
 
           <h3 className="font-semibold">
-            Backend Developer — <span className="text-accent">Two F Capital</span>
+            Backend Developer —{}
+          <a
+          href="https://2f-capital.com" 
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-accent hover:underline hover:opacity-90 transition"
+      >Two F Capital</a>
           </h3>
           <p className="text-sm text-white/60">
             February 2024 – September 2025
@@ -53,7 +64,12 @@ export default function Experience() {
 
           <h3 className="font-semibold">
             QA Tester —{" "}
-            <span className="text-accent">ConDigital Technologies</span>
+          <a
+          href="https://condigital.io" 
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-accent hover:underline hover:opacity-90 transition"
+      >ConDigital Technologies</a>
           </h3>
           <p className="text-sm text-white/60">
             May 2024 – September 2024
