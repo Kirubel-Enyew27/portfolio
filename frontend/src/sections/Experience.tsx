@@ -9,6 +9,25 @@ export default function Experience() {
       </h2>
 
       <div className="space-y-12">
+          {/* Cashflow Financial Technologies */}
+        <div className="relative border-l-2 border-accent pl-6">
+          <span className="absolute -left-[7px] top-1.5 w-3 h-3 rounded-full bg-accent" />
+
+          <h3 className="font-semibold">
+            Full-Stack Developer —{" "}
+            <span className="text-accent">Cashflow Financial Technologies</span>
+          </h3>
+          <p className="text-sm text-white/60">
+            September 2025 – Present
+          </p>
+
+          <ul className="mt-4 text-white/80 space-y-2">
+            <li>• Implemented secure payment APIs as part of a payment gateway project</li>
+            <li>• Developed a receipt verification system to validate transaction authenticity</li>
+            <li>• Built an order management application for an escrow-based payment system</li>
+            <li>• Worked closely with product and backend teams to deliver fintech solutions</li>
+          </ul>
+        </div>
         {/* Two F Capital */}
         <div className="relative border-l-2 border-accent pl-6">
           <span className="absolute -left-[7px] top-1.5 w-3 h-3 rounded-full bg-accent" />
@@ -17,7 +36,7 @@ export default function Experience() {
             Backend Developer — <span className="text-accent">Two F Capital</span>
           </h3>
           <p className="text-sm text-white/60">
-            February 2024 – Present
+            February 2024 – September 2025
           </p>
 
           <ul className="mt-4 text-white/80 space-y-2">
