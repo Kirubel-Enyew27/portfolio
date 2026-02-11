@@ -1,6 +1,7 @@
 package handlers
 
 import (
+	"fmt"
 	"net/http"
 
 	"portfolio/models"
@@ -34,6 +35,7 @@ Message:
 	)
 
 	if err != nil {
+		fmt.Println("Error Sending message:", err)
 		c.JSON(http.StatusInternalServerError, gin.H{
 			"error": "Failed to send email",
 		})
