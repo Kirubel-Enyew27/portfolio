@@ -30,10 +30,11 @@ Message:
 ` + contact.Message
 
 	err := utils.SendEmail(
-		contact.Email,
 		"📩 New Portfolio Contact Message",
 		emailBody,
 	)
+
+	fmt.Println("Email", emailBody)
 
 	if err != nil {
 		fmt.Println("Error Sending message:", err)

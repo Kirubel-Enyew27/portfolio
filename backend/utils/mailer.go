@@ -34,8 +34,8 @@ import (
 // 	)
 // }
 
-func SendEmail(email, subject, body string) error {
-	from := mail.NewEmail("Portfolio", email)
+func SendEmail(subject, body string) error {
+	from := mail.NewEmail("Client/Employer", "enyewkirubel76@gmail.com")
 	to := mail.NewEmail("You", "kirubelenyew76@gmail.com")
 	message := mail.NewSingleEmail(from, subject, to, body, body)
 	client := sendgrid.NewSendClient(os.Getenv("SENDGRID_API_KEY"))
