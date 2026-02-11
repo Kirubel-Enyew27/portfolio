@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import myImage from "../assets/me.jpg";
-import { Layers } from "lucide-react";
+// import { Layers } from "lucide-react";
 
 
 export default function Hero() {

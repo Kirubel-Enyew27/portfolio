@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, type SetStateAction } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Mail, Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 

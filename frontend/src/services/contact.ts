@@ -5,5 +5,5 @@ export async function sendMessage(data: {
   email: string;
   message: string;
 }) {
-  return axios.post("http://localhost:8080/api/contact", data);
+  return axios.post("https://portfolio-nlei.onrender.com/api/contact", data);
 }

@@ -28,6 +28,7 @@ const handleSubmit = async (e: { preventDefault: () => void }) => {
     setFormData({ name: "", email: "", message: "" });
   } catch (err) {
     toast.error("Something went wrong. Please try again.");
+    console.error("error--->", err)
   } finally {
     setLoading(false);
   }
