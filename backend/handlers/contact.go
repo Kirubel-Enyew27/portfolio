@@ -30,6 +30,7 @@ Message:
 ` + contact.Message
 
 	err := utils.SendEmail(
+		contact.Email,
 		"📩 New Portfolio Contact Message",
 		emailBody,
 	)
