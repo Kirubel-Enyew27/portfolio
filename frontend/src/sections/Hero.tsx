@@ -22,8 +22,9 @@ export default function Hero() {
             </h1>
 
             <p className="mt-4 text-lg sm:text-xl text-white/80 font-medium flex items-center justify-center md:justify-start gap-2">
-              <Layers className="w-5 h-5 text-accent" />
-              Full-Stack Developer
+              {/* <Layers className="w-5 h-5 text-accent" />
+              Full-Stack Developer */}
+              Golang Developer
             </p>
 
             <motion.p
@@ -32,9 +33,13 @@ export default function Hero() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5, duration: 0.8 }}
             >
-              Building secure, high-performance backends and sleek frontends with{" "}
+              {/* Building secure, high-performance backends and sleek frontends with{" "}
               <span className="text-accent">Go</span> & <span className="text-accent">React</span>.
               I focus on scalable systems and intuitive web interfaces.
+              Building secure, high-performance backends and sleek frontends with{" "}
+              <span className="text-accent">Go</span> & <span className="text-accent">React</span>.
+              I focus on scalable systems and intuitive web interfaces. */}
+              Building secure, high-performance backend systems with Go, focused on scalability, reliability, and efficient service design.
             </motion.p>
 
             {/* CTA buttons */}
@@ -44,14 +49,14 @@ export default function Hero() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.8, duration: 0.8 }}
             >
-              <a
+              {/* <a
                 href="#projects"
                 className="px-8 py-3 rounded-lg bg-accent text-black font-medium 
                            hover:opacity-90 hover:scale-105 hover:shadow-lg 
                            transition-transform duration-300"
               >
                 View Projects
-              </a>
+              </a> */}
 
               <a
                 href="#contact"

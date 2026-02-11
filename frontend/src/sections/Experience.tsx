@@ -51,8 +51,8 @@ export default function Experience() {
           </p>
 
           <ul className="mt-4 text-white/80 space-y-2">
-            <li>• Developed backend APIs using Golang</li>
-            <li>• Worked with PostgreSQL, MySQL, and CockroachDB</li>
+            <li>• Worked on a microservice-based delivery dispatch system using Golang</li>
+            <li>• Developed and maintained backend APIs for inter-service communication</li>
             <li>• Built and maintained Dockerized services</li>
             <li>• Collaborated using Git in a team environment</li>
           </ul>
